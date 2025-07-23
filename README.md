@@ -7,7 +7,7 @@
 > `git remote | grep -q upstream-public || git remote add upstream-public git@github.com:eove/orca.git`  
 > We then pull the public content of the `main` branch:  
 > `git fetch upstream-public`  
-> FInally, we merge the public O.R.CA with the Eove-private O.R.CA copy:  
+> FInally, we merge the public O.R.CA into the Eove-private O.R.CA copy:  
 > `git merge upstream-public/main`  
 
 # O.R.CA
